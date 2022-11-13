@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+.content {
+    background: rgb(175, 161, 161);
+    display: flex;
+    justify-content:center;  
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.customDropDown {
+    border: 3px solid rgb(118, 118, 118);
+    padding: 16px;
+    width: 200px;
+    position: relative;
+}
+
+.chooseOption {
+    padding-left: 3px;
+    padding-right: 3px;
+    background: #fff;
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+
+.dropDownContent {
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    display: none;
+}
+
+.dropDownItem {
+    padding: 5px;
+}
