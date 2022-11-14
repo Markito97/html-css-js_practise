@@ -11,27 +11,37 @@
 }
 
 .content {
-    background: rgb(175, 161, 161);
     display: flex;
     justify-content:center;  
-    align-items: center;
     width: 500px;
     height: 500px;
 }
 
 .customDropDown {
     border: 3px solid rgb(118, 118, 118);
-    padding: 16px;
+    padding: 10px;
     width: 200px;
     position: relative;
 }
 
+.dropDown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chooseOptionBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .chooseOption {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
     background: #fff;
-    top: 5px;
+    top: 8px;
     left: 10px;
+    font-size: 22px;
     position: absolute;
 }
 
@@ -40,7 +50,7 @@
     background: #fff;
     position: absolute;
     left: 0;
-    top: 55px;
+    top: 60px;
     display: none;
 }
 
